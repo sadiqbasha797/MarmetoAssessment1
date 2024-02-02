@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <!-- REPLACE THIS WITH YOUR PROJECT NAME. EXAMPLE - Category tabs -->
+    <title>shopping cards</title>
+   </head>
+   <body>
+    <h1 class="shop_title"><strong>SELECT YOUR CHOICE</strong></h1>
+
+    <div class="tabs">
+        <div class="tab active" onclick="showCategory('Men')" id="menTab" style="font-weight:700; font-size:20px; ">Men</div>
+        <div class="tab" onclick="showCategory('Women')" id="womenTab" style="font-weight:700; font-size:20px; ">Women</div>
+        <div class="tab" onclick="showCategory('Kids')" id="kidsTab" style=" font-weight:700; font-size:20px; ">Kids</div>
+    </div>
+
+    <div class="cardcont" id="cardContainer"></div>
+    
+    <script src="./script.js"></script>
+</body>
+
+</html>
