@@ -1,2 +1,2 @@
 # MarmetoAssessment1
-This project is to show case the ecommerce application product cards which are divided into three categories 
+The purpose of this project is to present an eCommerce application featuring product cards categorized into three sections. The implementation involves using HTML, CSS, and JavaScript to craft the frontend, without relying on external libraries. The development process adheres closely to the specifications outlined in the provided Figma file, with the addition of custom hover effects to enhance visual appeal.
