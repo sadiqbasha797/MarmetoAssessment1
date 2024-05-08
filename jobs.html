@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+<!--
+// v0 by Vercel.
+// https://v0.dev/t/m5fxKMGrHPd
+-->
+
+<header class="sticky top-0 z-50 bg-white shadow-sm dark:bg-gray-900">
+    <div class="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
+      <a class="flex items-center gap-2" href="#">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="h-6 w-6 text-indigo-500"
+        >
+          <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"></path>
+        </svg>
+        <span class="text-lg font-semibold tracking-tight text-gray-900 dark:text-gray-100">AscendSkills</span>
+      </a>
+      <nav class="hidden space-x-4 md:flex">
+        <a class="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100" href="index.html">
+          Home
+        </a>
+        <a class="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100" href="interview.html">
+          Interview Module
+        </a>
+        <a class="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100" href="jobs.html">
+          Job Search
+        </a>
+      </nav>
+      <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 px-4 py-2">
+        Get Started
+      </button>
+    </div>
+  </header>
+<div class="flex flex-col min-h-[100dvh]">
+    <header class="bg-gray-900 text-white py-8 px-4 md:px-6">
+      <div class="container mx-auto max-w-4xl">
+        <h1 class="text-3xl font-bold mb-2">Software Engineer</h1>
+        <p class="text-gray-300 mb-6">
+          Join our team and help build the next generation of our cutting-edge web application. We're looking for a
+          talented software engineer to contribute to our codebase and collaborate with our experienced developers.
+        </p>
+        <a
+          class="inline-flex items-center justify-center rounded-md bg-blue-600 px-6 py-3 text-sm font-medium text-white shadow-sm transition-colors hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+          href="#"
+        >
+          Apply Now
+        </a>
+      </div>
+    </header>
+    <main class="flex-1 bg-gray-100 py-12 px-4 md:px-6">
+      <div class="container mx-auto max-w-4xl grid grid-cols-1 md:grid-cols-[1fr_300px] gap-8">
+        <div>
+          <h2 class="text-2xl font-bold mb-6">Other Job Openings</h2>
+          <div class="space-y-4">
+            <div class="bg-white rounded-md shadow-sm p-4">
+              <h3 class="text-lg font-bold mb-1">Frontend Developer</h3>
+              <p class="text-gray-500 mb-2">New York, NY</p>
+              <a
+                class="inline-flex items-center justify-center rounded-md bg-blue-600 px-4 py-2 text-sm font-medium text-white shadow-sm transition-colors hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+                href="#"
+              >
+                Apply
+              </a>
+            </div>
+            <div class="bg-white rounded-md shadow-sm p-4">
+              <h3 class="text-lg font-bold mb-1">Backend Developer</h3>
+              <p class="text-gray-500 mb-2">San Francisco, CA</p>
+              <a
+                class="inline-flex items-center justify-center rounded-md bg-blue-600 px-4 py-2 text-sm font-medium text-white shadow-sm transition-colors hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+                href="#"
+              >
+                Apply
+              </a>
+            </div>
+            <div class="bg-white rounded-md shadow-sm p-4">
+              <h3 class="text-lg font-bold mb-1">DevOps Engineer</h3>
+              <p class="text-gray-500 mb-2">Remote</p>
+              <a
+                class="inline-flex items-center justify-center rounded-md bg-blue-600 px-4 py-2 text-sm font-medium text-white shadow-sm transition-colors hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+                href="#"
+              >
+                Apply
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="bg-white rounded-md shadow-sm p-6">
+          <h2 class="text-2xl font-bold mb-4">About the Company</h2>
+          <p class="text-gray-500 mb-6">
+            We are a fast-growing tech company dedicated to building innovative software solutions. Our team is
+            passionate about creating products that make a real impact on our customers' lives.
+          </p>
+          <h2 class="text-2xl font-bold mb-4">Benefits</h2>
+          <ul class="space-y-2 text-gray-500">
+            <li>Competitive salary and equity</li>
+            <li>Comprehensive health insurance</li>
+            <li>401(k) retirement plan</li>
+            <li>Generous paid time off</li>
+            <li>Professional development opportunities</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <footer class="bg-gray-900 py-8 text-white">
+        <div class="container mx-auto flex flex-col items-center justify-between gap-4 px-4 md:flex-row">
+          <div class="flex items-center gap-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="h-6 w-6 text-indigo-500"
+            >
+              <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"></path>
+            </svg>
+            <span class="text-lg font-semibold tracking-tight">AscendSkills</span>
+          </div>
+          <nav class="flex space-x-4">
+            <a class="text-gray-400 hover:text-gray-100 dark:text-gray-400 dark:hover:text-gray-100" href="#">
+              Home
+            </a>
+            <a class="text-gray-400 hover:text-gray-100 dark:text-gray-400 dark:hover:text-gray-100" href="#">
+              Interview Module
+            </a>
+            <a class="text-gray-400 hover:text-gray-100 dark:text-gray-400 dark:hover:text-gray-100" href="#">
+              Job Search
+            </a>
+          </nav>
+          <p class="text-sm text-gray-400">© 2024 AscendSkills. All rights reserved.</p>
+        </div>
+      </footer>
+  </div>
+  
+</body>
+</html>
